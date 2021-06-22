@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAMIYA NISAR Fitness</title>
+</head>
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Playball&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<style>
+    /*CSS reset*/
+    body{
+        font-family: 'Playball', cursive;
+        color:saddlebrown;
+        margin:0px;
+        padding:0px;
+        background: url(./treadmill.png);
+    }
+    .left{
+        display: inline-block;
+        position: absolute;
+        top:10px;
+        left: 20px;
+        
+    }
+    .left img{
+        width: 150px;
+    
+    }
+    .left div{
+        line-height: 20px;
+        font-size: 15px;
+        text-align:center;
+        margin: 10px auto;
+        
+    }
+    .mid{
+        display: block;
+        width: 40%;
+        margin: 30px auto;
+
+    
+
+    }
+    .right{
+        display: inline-block;
+        position: absolute;
+        top: 38px;
+        right: 34px;
+
+    
+
+    }
+    .navbar{
+        display: inline-block;
+    }
+    .navbar li{
+        display: inline-block;
+        font-size: 25px;
+        padding-left: 25px;
+    }
+    .navbar li a{
+        text-decoration: none;
+        color: saddlebrown;
+        padding: 34px,23px;
+    }
+    .navbar li a:hover, .navbar li a.active {
+        text-decoration: underline;
+        color: grey;
+    }
+    .btn{
+        font-family: 'Playball', cursive;
+        color: saddlebrown;
+        margin: 0px,9px;
+        padding: 4px,14px;
+        border: 2px solid grey;
+        border-radius: 10%;
+        font-size: 20px;
+        cursor: pointer;
+    }
+    .btn:hover{
+        color: grey;
+    }
+    .container{
+        
+        margin: 120px 10px;
+        padding-right: 105px;
+        border-radius: 28px;
+        width: 26%;
+    }
+    .form-group input{
+        text-align: center;
+        padding: 1px;
+        width: 300px;
+        display: block;
+        margin: 10px auto;
+        border: 5px solid black;
+        font-family: 'Playball', cursive;
+        font-size: 20px;
+        border-radius: 5px;
+    }
+    .container h1{
+        text-align: center;
+    }
+    .container button{
+        display: block;
+        width: 30%;
+        margin:  20px auto;
+    }
+</style>
+<body>
+    <header class="header">
+        <!--left box for logo-->
+       <div class="left">
+           <img src="./logo.png" alt="">
+
+       </div>
+       <!--mid box for navbar-->
+
+       <div class="mid">
+
+        <ul class="navbar">
+            <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li> <a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+        </ul>
+
+       </div>
+       <!--right box for buttons-->
+
+       <div class="right">
+           <button class="btn">Call Us Now</button>
+           <button class="btn">Email us</button>
+
+       </div>
+      
+    </header>
+    <div class="container">
+        <h1>Join The Best Gym of Bangalore</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email-id">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Phone Number">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
